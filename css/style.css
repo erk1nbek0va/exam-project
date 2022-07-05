@@ -1,0 +1,85 @@
+body{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 10px; 
+    line-height: 1.em; 
+    color: black; 
+    background-color: rgb(255, 255, 255);
+} 
+.container{ 
+    max-width: 1200px; 
+    padding: 0 15px; 
+    margin: 0 auto; 
+}
+a{
+    text-decoration: none;
+}
+.top-text h3{
+    color: rgb(255, 170, 0);
+}
+.top-text h3,h1{
+    text-align: center;
+}
+.main-div{
+    width: 100%;
+    display: flex;
+    padding-left: 40px;
+    margin-top: 35px;
+}
+.firts-div{
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.137);
+}
+.firts-div img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.main-column{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.gray-text{
+    color: rgb(95, 95, 95);
+}
+.orange-text{
+    color: rgb(255, 174, 0);
+}
+.text-first-column h4,a{
+    padding-left: 20px;
+}
+.text-first-column a{
+    margin-left: 15px;
+    background-color: #ccc;
+    color: rgb(86, 86, 86);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 8px;
+}
+.text-second-column{
+    padding-left: 200px;
+}
+.text-third-column h4,a{
+    padding-left: 20px;
+}
+.text-third-column a{
+    margin-left: 15px;
+    background-color: #ccc;
+    color: rgb(86, 86, 86);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 8px;
+}
+.text-fourty-column{
+    padding-left: 180px;
+}
+.under-text a{
+    color: #fff;
+    background-color: rgb(255, 153, 0);
+    margin-left: 45%;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.under-text{
+    margin-top: 40px;
+}
